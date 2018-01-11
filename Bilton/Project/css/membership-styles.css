@@ -1,0 +1,30 @@
+body {
+	background-color: #4c1d2b;
+	letter-spacing: 1px;
+}
+
+h1 {
+	color: #cfc307;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+p {
+	padding: 15px 10px;
+	color: #fff;
+}
+
+button {
+	margin-top: 15px;
+}
+
+table {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 40px;
+	color: #fff;
+}
+
+th {
+	color: #cfc307;
+}

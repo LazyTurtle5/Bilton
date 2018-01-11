@@ -1,0 +1,33 @@
+body {
+	background-color: #4c1d2b;
+}
+
+p, a {
+	color: #fff;
+}
+
+h1 {
+	color: #cfc307;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+p {
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+a {
+	display: block;
+	text-align: center;
+}
+
+a:hover {
+	color: #cfc307;
+	text-decoration: none;
+}
+
+.top {
+	padding-top: 15px;
+}
