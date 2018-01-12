@@ -9,7 +9,7 @@ p, a {
 h1 {
 	color: #cfc307;
 	text-align: center;
-	padding-bottom: 15px;
+	padding: 25px 0 15px 0;
 }
 
 p {
@@ -30,4 +30,8 @@ a:hover {
 
 .top {
 	padding-top: 15px;
+}
+
+.twitter-feed {
+	text-align: center;
 }
