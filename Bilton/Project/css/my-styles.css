@@ -416,8 +416,23 @@ MEDIA QUERIES
 		padding-top: 0;
 	}
 
-	
+	.titles {
+		text-align: center;
+	}
 }
+
+@media screen and (max-width: 575px) {
+	.titles h1 {
+		font-size: 44px;
+	}
+}
+
+@media screen and (min-width: 576px) {
+	.break {
+		display: none;
+	}
+}
+
 
 
 
