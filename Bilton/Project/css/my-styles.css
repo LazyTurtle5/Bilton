@@ -425,6 +425,10 @@ MEDIA QUERIES
 	.titles h1 {
 		font-size: 44px;
 	}
+
+	.bottom-row {
+		display: none;
+	}
 }
 
 @media screen and (min-width: 576px) {
@@ -432,6 +436,13 @@ MEDIA QUERIES
 		display: none;
 	}
 }
+
+@media screen and (max-width: 767px) {
+	.bottom-row {
+		display: none;
+	}
+}
+
 
 
 
