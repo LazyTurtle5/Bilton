@@ -14,10 +14,6 @@ p {
 	color: #fff;
 }
 
-button {
-	margin-top: 15px;
-}
-
 table {
 	width: 100%;
 	margin: 0 auto;
@@ -27,4 +23,27 @@ table {
 
 th {
 	color: #cfc307;
+}
+
+.form-btn {
+	color: #cfc307;
+	padding: 15px;
+	border: 1px solid #cfc307;
+}
+
+.form-btn:hover {
+	color: #4c1d2b;
+	background-color: #cfc307;
+	text-decoration: none;
+}
+
+.buttons {
+	text-align: center;
+	margin-top: 35px;
+}
+
+.form-btn:visited,.form-btn:focus{
+	color: #4c1d2b;
+	background-color: #cfc307;
+	text-decoration: none;
 }
