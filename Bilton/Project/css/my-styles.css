@@ -180,6 +180,10 @@ BOXED GRID
 	background: #82ca9c;
 }
 
+.blue {
+	background: #3d8fce;
+}
+
 
 /******************************
 FOUR COLUMN GRID - a look at the detail
@@ -188,6 +192,7 @@ FOUR COLUMN GRID - a look at the detail
 .whole-text {
 	padding-top: 100px;
 	padding-bottom: 100px;
+	text-align: center;
 }
 
 .sub-title h2 {
@@ -202,18 +207,20 @@ FOUR COLUMN GRID - a look at the detail
     color: #959595;
 }
 
-.col h4 {
-	font-size: 13px;
-	letter-spacing: 1px;
-	font-weight: 700;
+.cricket,
+.pool,
+.darts {
+	display: flex;
+	flex-direction: column;
 }
 
-.col p {
-	font-size: 15px;
-    line-height: 24px;
-    letter-spacing: .5px;
-    font-weight: 100;
-    margin-top: 20px;
+.firstXi,
+.secondXi,
+.devXi,
+.batsmen,
+.bowlers {
+	display: flex;
+	justify-content: space-around;
 }
 
 /******************************
@@ -384,6 +391,15 @@ JUMBOTRON 5
 
 .form-control {
 	height: 60px;
+}
+
+.socialMedia {
+	display: flex;
+}
+
+.fa {
+	color: white;
+	padding: 25px 25px 0 0;
 }
 
 /******************************
