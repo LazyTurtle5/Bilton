@@ -1,7 +1,11 @@
 
 //Animation for heading text
-$('.clubName')
-    .blast({delimiter: "character"})
-    .css("opacity", 0)
-    .velocity("transition.fadeIn", {stagger: 50});
 
+$(document).ready(function() {
+    if($(window).width() >= 375) {
+        $('.clubName')
+    		.blast({delimiter: "character"})
+    		.css("opacity", 0)
+    		.velocity("transition.fadeIn", {stagger: 100});
+    }
+});
