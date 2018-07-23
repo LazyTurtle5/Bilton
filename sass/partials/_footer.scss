@@ -1,0 +1,73 @@
+// Footer ---------------------------/
+
+.jumbo_4 {
+	background: $color-footer;
+	margin-bottom: 0;
+}
+
+.complete-text {
+	padding-top: 50px;
+	margin-bottom: 100px;
+}
+
+.top-row {
+	color: $color-plain;
+	h4 {
+		font-size: 13px;
+		letter-spacing: 1px;
+		font-weight: 400;
+		margin-bottom: 30px; 
+	}
+	p {
+		font-size: 14px;
+	    line-height: 24px;
+	    letter-spacing: 1px;
+	    font-weight: 100;
+	}
+}
+
+.bottom-row {
+	color: $color-plain;
+	font-size: 13px;
+	letter-spacing: 1px;
+	h4 {
+		font-weight: 400;
+		margin-bottom: 20px; 
+		margin-top: 30px;
+	}
+	p {
+		font-size: 13px;
+		font-weight: 100;
+		line-height: 5px;
+	}
+	a {
+		color: $color-plain;
+		font-weight: 100;
+		line-height: 20px;
+		display: block;
+	}
+}
+
+#address p {
+	padding-top: 5px;
+}
+
+.text-box p {
+	color: $color-textbox;
+	margin-top: 10px;
+	font-size: 13px;
+	font-weight: 200;
+}
+
+.form-control {
+	height: 60px;
+}
+
+.socialMedia {
+	display: flex;
+}
+
+.fa {
+	color: $color-plain;
+	padding: 25px 25px 0 0;
+}

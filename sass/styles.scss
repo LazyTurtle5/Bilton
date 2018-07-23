@@ -1,0 +1,294 @@
+// Partial imports ---------------------------/
+
+@import 'partials/variables',
+		'partials/logo',
+		'partials/footer',
+		'partials/gallery-page',
+		'partials/news-page',
+		'partials/membership-page';
+
+// Home page ---------------------------/
+
+/******************************
+JUMBOTRON 1
+******************************/
+
+.row-masthead {
+	height: 700px;
+    width: 100%;
+}
+
+#mainTitle,
+#mainTitleLink {
+	color: $color-secondary;
+}
+
+.titles{
+	color: $color-plain;
+	margin-top: 100px;
+	h1 {
+		font-weight: 100;
+		font-size: 60px;
+		margin-bottom: 20px;
+		letter-spacing: 5px;
+	}
+	p {
+		font-size: 14px;
+	    line-height: 24px;
+	    font-weight: 100;
+	    letter-spacing: 1.5px;
+	}
+	a {
+		color: $color-plain;
+		font-size: 13px;
+		letter-spacing: 1.5px;
+		font-weight: 400;
+	}
+}
+
+.cricket img {
+	margin-top: -15px;
+	margin-left: -220px;
+	width: 700px;
+	height: 100%;
+}
+
+/******************************
+FIRST COLUMNS - who we are
+******************************/
+
+.text {
+	padding-bottom: 50px;
+}
+
+.first_content {
+	h2 {
+		font-size: 35px;
+	    color: $color-h2;
+	    margin: 50px 0;
+	    font-weight: 300;
+	    letter-spacing: 2.5px;
+	    padding-top: 50px;
+	}
+	h4 {
+		font-size: 14px;
+	    color: $color-h4;
+	    margin-bottom: 30px;
+	    line-height: 20px;
+	    font-weight: 200;
+	    letter-spacing: 1px;
+	}
+	h5 {
+		font-size: 14px;
+	    color: #b8b8b8;
+	}
+	p {
+		font-size: 14px;
+	    color: $color-body-p;
+	    line-height: 24px;
+	    font-weight: 200;
+	    letter-spacing: .5px;
+	}
+}
+
+/******************************
+BOXED GRID
+******************************/
+
+.container-full {
+	margin-top: 50px;
+}
+
+.grid {
+	height: 260px;
+	color: $color-plain;
+}
+
+.grid.col-sm-4, .grid.col-sm-8 {
+	padding: 20px 40px 0 40px;
+}
+
+.grid {
+	a {
+		color: $color-plain;
+		font-size: 16px;
+		letter-spacing: 1.5px;
+		font-weight: 100;
+	}
+	h2 {
+		font-size: 30px;
+		font-weight: 100;
+		letter-spacing: 2.5px;
+	}
+	p {
+		font-size: 14px;
+		font-weight: 100;
+		line-height: 24px;
+		font-weight: 100;
+		letter-spacing: 1px;
+		padding-top: 10px;
+	}
+}
+
+.pink {
+	background: $grid-pink;
+}
+
+.purple {
+	background: $grid-purple;
+}
+
+.image01 {
+	background: url('../assets/image01.jpg') no-repeat;
+	background-position: center;
+	opacity: 0.7;
+}
+
+.image02 {
+	background: url('../assets/image02.jpg') no-repeat;
+	background-position: center;
+	opacity: 0.7;
+}
+
+.green {
+	background: $grid-green;
+}
+
+.blue {
+	background: $grid-blue;
+}
+
+/******************************
+THREE COLUMN GRID - cricket, pool, darts
+******************************/
+
+.whole-text {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+.sub-title {
+	h2 {
+		font-size: 35px;
+	    color: $color-h2;
+	    margin-bottom: 30px;
+	    font-weight: 100;
+	    letter-spacing: 2.5px;
+	}
+}
+
+.col {
+    color: $color-body-p;
+}
+
+.cricket,
+.pool,
+.darts {
+	display: flex;
+	flex-direction: column;
+}
+
+.firstXi,
+.secondXi,
+.devXi,
+.batsmen,
+.bowlers {
+	display: flex;
+	justify-content: space-around;
+}
+
+/******************************
+JUMBOTRON 2
+******************************/
+
+.jumbo_2 {
+	height: 700px;
+    width: 100%;
+}
+
+/******************************
+JUMBOTRON 3 - about the club
+******************************/
+
+.jumbo_3 {
+	background: $color-plain;
+	margin-bottom: 0;
+}
+
+.reasons {
+	h2 {
+		color: $color-h2;
+		font-size: 35px;
+		font-weight: 100;
+		letter-spacing: 2.5px;
+		margin-bottom: 30px;
+	}
+	h4 {
+		font-size: 13px;
+		letter-spacing: 1px;
+		font-weight: 700;
+		color: $color-h4;
+	}
+	p {
+		font-size: 15px;
+	    line-height: 24px;
+	    letter-spacing: 1px;
+	    font-weight: 100;
+	    margin-top: 20px;
+	    color: $color-body-p;
+	}
+}
+
+.reasons.history {
+		padding-bottom: 50px;
+	}
+
+
+// Media Queries ---------------------------/
+
+@media (max-width: 992px) {
+	.text {
+		padding-top: 0;
+		padding-bottom: 20px;
+	}
+
+	.whole-text {
+		padding-top: 0;
+	}
+
+	.titles {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.titles h1 {
+		font-size: 44px;
+	}
+
+	.bottom-row {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 576px) {
+	.break {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.bottom-row {
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+

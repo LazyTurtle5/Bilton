@@ -1,0 +1,44 @@
+// Membership page ---------------------------/
+
+
+#sub-body {
+	background-color: $color-primary;
+	letter-spacing: 1px;
+}
+
+.sub-title {
+	color: $color-secondary;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.member-para {
+	padding: 15px 10px;
+	color: $color-plain;
+}
+
+table {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 40px;
+	color: $color-plain;
+}
+
+th {
+	color: $color-secondary;
+}
+
+.buttons {
+	text-align: center;
+	margin-top:	35px;
+	a {
+		color: $color-secondary;
+		padding: 15px;
+		border: 1px solid $color-secondary;
+	}
+	a:hover {
+		color: $color-primary;
+		background-color: $color-secondary;
+		text-decoration: none;
+	}
+}
